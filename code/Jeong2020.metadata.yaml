@@ -1,0 +1,199 @@
+_dataset:
+  class: Jeong2020
+  code: Jeong2020
+  doi: 10.1093/gigascience/giaa098
+  interval:
+  - 0
+  - 4
+  n_subjects: 25
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 60
+    emg: 7
+    eog: 4
+  filters:
+    highpass: 0.016
+    lowpass: 1000
+  ground: Fpz
+  hardware: BrainAmp (BrainProducts GmbH)
+  line_freq: 60.0
+  montage: standard_1005
+  n_channels: 71
+  reference: FCz
+  sampling_rate: 1000.0
+  sensor_type: actiCap
+  sensors:
+  - Fp1
+  - AF7
+  - AF3
+  - AFz
+  - F7
+  - F5
+  - F3
+  - F1
+  - Fz
+  - FT7
+  - FC5
+  - FC3
+  - FC1
+  - T7
+  - C5
+  - C3
+  - C1
+  - Cz
+  - TP7
+  - CP5
+  - CP3
+  - CP1
+  - CPz
+  - P7
+  - P5
+  - P3
+  - P1
+  - Pz
+  - PO7
+  - PO3
+  - POz
+  - Fp2
+  - AF4
+  - AF8
+  - F2
+  - F4
+  - F6
+  - F8
+  - FC2
+  - FC4
+  - FC6
+  - FT8
+  - C2
+  - C4
+  - C6
+  - T8
+  - CP2
+  - CP4
+  - CP6
+  - TP8
+  - P2
+  - P4
+  - P6
+  - P8
+  - PO4
+  - PO8
+  - O1
+  - Oz
+  - O2
+  - Iz
+bci_application:
+  applications:
+  - motor_control
+  - prosthetics
+  environment: laboratory
+cross_validation:
+  cv_folds: 10
+  cv_method: 10x10-fold
+  evaluation_type:
+  - within_session
+data_structure:
+  n_trials: 41250
+  trials_context: 25 subjects x 3 sessions x 550 trials (300 reaching + 150 grasping + 100 twisting)
+documentation:
+  country: KR
+  data_url: https://zenodo.org/records/19021436
+  doi: 10.1093/gigascience/giaa098
+  institution: Korea University
+  investigators:
+  - Ji-Hoon Jeong
+  - Jeong-Hyun Cho
+  - Kyung-Hwan Shim
+  - Byoung-Hee Kwon
+  - Byeong-Hoo Lee
+  - Do-Yeun Lee
+  - Dae-Hyeok Lee
+  - Seong-Whan Lee
+  license: CC0-1.0
+  publication_year: 2020
+experiment:
+  class_labels:
+  - reach_forward
+  - reach_backward
+  - reach_left
+  - reach_right
+  - reach_up
+  - reach_down
+  - grasp_cup
+  - grasp_ball
+  - grasp_card
+  - twist_pronation
+  - twist_supination
+  events:
+    grasp_ball: 8
+    grasp_card: 9
+    grasp_cup: 7
+    reach_backward: 2
+    reach_down: 6
+    reach_forward: 1
+    reach_left: 3
+    reach_right: 4
+    reach_up: 5
+    twist_pronation: 10
+    twist_supination: 11
+  feedback_type: none
+  mode: offline
+  n_classes: 11
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: text cues
+  study_design: '11 intuitive upper-limb movement tasks: 6 reaching + 3 grasping + 2 wrist twisting. MI and real movement
+    conditions, 3 sessions.'
+  synchronicity: synchronous
+  trial_duration: 4.0
+file_format: BrainVision
+paradigm_specific:
+  detected_paradigm: motor_imagery
+  imagery_duration_s: 4.0
+  imagery_tasks:
+  - reach_forward
+  - reach_backward
+  - reach_left
+  - reach_right
+  - reach_up
+  - reach_down
+  - grasp_cup
+  - grasp_ball
+  - grasp_card
+  - twist_pronation
+  - twist_supination
+participants:
+  age_max: 32.0
+  age_min: 24.0
+  bci_experience: naive
+  gender:
+    female: 10
+    male: 15
+  handedness: right-handed
+  health_status: healthy
+  n_subjects: 25
+  species: human
+runs_per_session: 3
+sessions_per_subject: 3
+signal_processing:
+  classifiers:
+  - CSP+RLDA
+  feature_extraction:
+  - CSP
+  frequency_bands:
+    mu_beta:
+    - 8.0
+    - 30.0
+  spatial_filters:
+  - CSP
+tags:
+  modality:
+  - Motor
+  pathology:
+  - Healthy
+  type:
+  - Research
