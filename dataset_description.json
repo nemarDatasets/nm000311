@@ -1,44 +1,48 @@
 {
-	"Name": "Jeong2020",
-	"BIDSVersion": "1.9.0",
-	"HEDVersion": "8.4.0",
-	"DatasetType": "derivative",
-	"License": "CC0-1.0",
-	"Authors": [
-		"Ji-Hoon Jeong",
-		"Jeong-Hyun Cho",
-		"Kyung-Hwan Shim",
-		"Byoung-Hee Kwon",
-		"Byeong-Hoo Lee",
-		"Do-Yeun Lee",
-		"Dae-Hyeok Lee",
-		"Seong-Whan Lee"
-	],
-	"ReferencesAndLinks": [
-		"https://zenodo.org/records/19021436"
-	],
-	"DatasetDOI": "doi:10.1093/gigascience/giaa098",
-	"GeneratedBy": [
-		{
-			"CodeURL": "https://github.com/NeuroTechX/moabb",
-			"Name": "moabb",
-			"Description": "Mother of All BCI Benchmarks",
-			"Version": "1.5.0"
-		}
-	],
-	"SourceDatasets": [
-		{
-			"DOI": "10.1093/gigascience/giaa098",
-			"URL": "https://zenodo.org/records/19021436"
-		}
-	],
-	"Keywords": [
-		"Healthy",
-		"Motor",
-		"Research",
-		"imagery",
-		"motor_control",
-		"prosthetics"
-	],
-	"PublicationYear": 2020
+  "Name": "Jeong2020",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC0-1.0",
+  "Authors": [
+    "Ji-Hoon Jeong",
+    "Jeong-Hyun Cho",
+    "Kyung-Hwan Shim",
+    "Byoung-Hee Kwon",
+    "Byeong-Hoo Lee",
+    "Do-Yeun Lee",
+    "Dae-Hyeok Lee",
+    "Seong-Whan Lee"
+  ],
+  "ReferencesAndLinks": [
+    "https://zenodo.org/records/19021436"
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000311",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.1093/gigascience/giaa098",
+      "URL": "https://zenodo.org/records/19021436"
+    },
+    {
+      "DOI": "doi:10.1093/gigascience/giaa098"
+    }
+  ],
+  "Keywords": [
+    "Healthy",
+    "Motor",
+    "Research",
+    "imagery",
+    "motor_control",
+    "prosthetics"
+  ],
+  "PublicationYear": 2020,
+  "Version": "1.0.0"
 }
