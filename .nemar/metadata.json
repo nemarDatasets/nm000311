@@ -1,0 +1,105 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Ji-Hoon Jeong": {
+      "orcid": "0000-0001-6940-2700",
+      "affiliations": [
+        {
+          "name": "Department of Brain and Cognitive Engineering, Korea University, 145 Anam-ro, Seongbuk-gu, Seoul 02841, South Korea"
+        }
+      ]
+    },
+    "Jeong-Hyun Cho": {},
+    "Kyung-Hwan Shim": {},
+    "Byoung-Hee Kwon": {},
+    "Byeong-Hoo Lee": {},
+    "Do-Yeun Lee": {},
+    "Dae-Hyeok Lee": {},
+    "Seong-Whan Lee": {
+      "orcid": "0000-0002-6249-4996",
+      "affiliations": [
+        {
+          "name": "Department of Brain and Cognitive Engineering, Korea University, 145 Anam-ro, Seongbuk-gu, Seoul 02841, South Korea"
+        },
+        {
+          "name": "Department of Artificial Intelligence, Korea University, 145 Anam-ro, Seongbuk-gu, Seoul 02841, South Korea"
+        }
+      ]
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1093/gigascience/giaa098",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000311",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000311",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "Jeong2020",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "95.2 GB (214 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "A multimodal neuroimaging dataset comprising EEG, EOG, and EMG recordings from 25 healthy subjects performing 11 intuitive upper-limb motor imagery tasks (6 reaching, 3 grasping, 2 wrist twisting movements) across 3 sessions. The dataset includes 41,250 trials recorded at 1000 Hz with 60 EEG channels and is designed for brain-computer interface research and motor control applications.",
+  "methods_description": "EEG data were acquired using a 60-channel actiCap montage (standard 1005) with BrainAmp amplifier (BrainProducts GmbH) at 1000 Hz sampling rate. Additional EOG (4 channels) and EMG (7 channels) signals were recorded. Reference electrode at FCz, ground at Fpz. Online filters: highpass 0.016 Hz, lowpass 1000 Hz. Participants performed motor imagery tasks cued by visual text stimuli in a synchronous, offline paradigm with 4-second trial duration across 3 sessions (550 trials per session).",
+  "keywords": [
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "upper extremity"
+    },
+    {
+      "term": "electrooculography"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "prosthetics"
+    },
+    {
+      "term": "electromyography"
+    },
+    {
+      "term": "reaching"
+    },
+    {
+      "term": "grasping"
+    },
+    {
+      "term": "wrist twisting"
+    }
+  ],
+  "source_hash": "ec3aeedbe8bfb51fec0b4dd27c14ffc8f6cce3df957ed26ed62fbfb35fb74d53"
+}
