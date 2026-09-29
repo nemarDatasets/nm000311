@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Multimodal upper-limb MI/ME EEG (Jeong et al. 2020)",
-  "description": "A multimodal EEG dataset comprising motor imagery and motor execution data from 25 healthy subjects performing 11 intuitive upper-limb movement tasks (6 reaching, 3 grasping, 2 wrist twisting) across 3 sessions. The dataset includes 71-channel EEG recordings (60 EEG, 4 EOG, 7 EMG channels) sampled at 1000 Hz with synchronized behavioral annotations, designed for brain-computer interface research and motor control applications.",
-  "methods_description": "EEG data were acquired using a 71-channel BrainAmp system (BrainProducts GmbH) with actiCap sensors at 1000 Hz sampling rate. Recordings included 60 EEG channels referenced to FCz with Fpz ground, 4 EOG channels, and 7 EMG channels. Online filters applied: highpass 0.016 Hz, lowpass 1000 Hz. Participants performed 11 motor imagery tasks cued by visual text stimuli in synchronous offline mode across 3 sessions with 3 runs per session.",
+  "description": "A multimodal EEG, EOG and EMG dataset from 25 healthy, BCI-naive right-handed participants performing motor imagery and real movement of 11 intuitive upper-limb tasks. The tasks were 6 reaching directions, 3 grasping types and 2 wrist-twisting movements. Each participant completed 3 sessions of 550 trials. Recordings used 60 EEG channels at 1000 Hz. This BIDS derivative was generated via MOABB and is intended for BCI research on motor control and prosthetics.",
+  "methods_description": "EEG was recorded at 1000 Hz with a BrainAmp amplifier and actiCap sensors (60 EEG, 4 EOG and 7 EMG channels; reference FCz, ground Fpz). Participants followed visual text cues in 4 s trials, performing motor imagery and real movement across 3 sessions with 3 runs each.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -41,25 +41,19 @@
       "term": "motor imagery"
     },
     {
-      "term": "brain-computer interfaces"
+      "term": "movement execution"
     },
     {
-      "term": "motor execution"
+      "term": "brain-computer interface"
     },
     {
       "term": "upper extremity"
     },
     {
-      "term": "electromyography"
-    },
-    {
-      "term": "motor control"
-    },
-    {
       "term": "prosthetics"
     },
     {
-      "term": "healthy"
+      "term": "electromyography"
     }
   ],
   "related_identifiers": [
@@ -77,6 +71,16 @@
       "identifier": "https://nemar.org/dataset/nm000311",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
   "resource_type_general": "Dataset",
@@ -85,7 +89,7 @@
     "eeg"
   ],
   "sizes": [
-    "346.6 GB (1063 files)"
+    "323 GB (1063 files)"
   ],
   "formats": [
     ".bdf",
